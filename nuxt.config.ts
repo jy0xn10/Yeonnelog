@@ -5,4 +5,8 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/yeonnelog/',
   },
+  css: [
+    'destyle.css',
+    '~/assets/styles/main.css'
+  ]
 })
