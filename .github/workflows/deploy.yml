@@ -27,7 +27,7 @@ jobs:
 
       - run: npm install
 
-      - run: npm run generate
+      - run: npm run generate --preset github_pages
 
       - uses: actions/upload-pages-artifact@v3
         with:
