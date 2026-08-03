@@ -19,7 +19,9 @@
 }
 
 .layout main {
-    width: 600px !important;
+    width: min(100%, 760px);
+    max-width: 760px;
+    box-sizing: border-box;
     background-color: white;
 }
 </style>
