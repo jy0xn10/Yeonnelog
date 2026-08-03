@@ -5,6 +5,14 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     baseURL: '/Yeonnelog/',
+    head: {
+      meta: [
+        {
+          name: 'viewport',
+          content: 'width=device-width, initial-scale=1'
+        }
+      ]
+    }
   },
   css: [
     'destyle.css',

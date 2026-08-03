@@ -19,7 +19,8 @@
 }
 
 .layout main {
-    width: 600px !important;;
+    width: 600px !important;
+    min-width: 600px;
     background-color: white;
 }
 </style>
