@@ -19,7 +19,7 @@
 }
 
 .layout main {
-    width: 600px;
+    width: 600px !important;
     background-color: white;
 }
 </style>
