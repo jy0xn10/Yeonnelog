@@ -12,13 +12,14 @@
     justify-content: center;
     width: 100%;
     min-height: 100vh;
-    /* background-image: url("~/assets/images/wallpaper01.jpg");
+    background-image: url("~/assets/images/wallpaper01.jpg");
     background-repeat: repeat;
     background-position: top left;
-    background-size: auto; */
+    background-size: auto;
 }
 
 .layout main {
-    width: 500px;
+    width: 600px;
+    background-color: white;
 }
 </style>
